@@ -4,13 +4,13 @@ import { Item, RewardItem, ShipmentType } from '../types/item.ts';
 const importAllImages = () => {
   const images: Record<string, string> = {};
 
-  const imageModules = import.meta.glob('/src/assets/items/*.png', { eager: true });
+  const imageModules: Record<string, { default: string }> = import.meta.glob('/src/assets/items/*.png', { eager: true });
 
   // Populate the images object with the file names as keys and paths as values
   for (const path in imageModules) {
     const fileName = path.split('/').pop()?.split('.')[0]; // Extract the file name without extension
     if (fileName) {
-      images[fileName] = path;
+      images[fileName] = imageModules[path].default; // Use the default export from Vite's glob
     }
   }
 
@@ -103,6 +103,9 @@ export const commercialItems: Item[] = [
   { id: 'lighting_system', name: 'Lighting System', category: 'Home Appliances', maxPrice: 890, image: itemImages['Lighting_System'] },
   { id: 'tv', name: 'TV', category: 'Home Appliances', maxPrice: 1280, image: itemImages['TV'] },
   { id: 'microwave_oven', name: 'Microwave Oven', category: 'Home Appliances', maxPrice: 480, image: itemImages['Microwave_Oven'] },
+
+  // Tropical Products
+  { id: 'coconut_oil', name: 'Coconut Oil', category: 'Tropical Products', maxPrice: 120, image: itemImages['Coconut_Oil'] },
 ];
 
 // Reward items with their default values
