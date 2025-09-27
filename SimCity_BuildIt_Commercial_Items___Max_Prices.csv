@@ -1,0 +1,88 @@
+Category,Store,Item,MaxPrice_Simoleons
+Base City,Factory,Metal,10
+Base City,Factory,Wood,20
+Base City,Factory,Plastic,25
+Base City,Factory,Seeds,30
+Base City,Factory,Minerals,40
+Base City,Factory,Chemicals,60
+Base City,Factory,Textiles,90
+Base City,Factory,Sugar and Spices,110
+Base City,Factory,Glass,120
+Base City,Factory,Animal Feed,140
+Base City,Factory,Electrical Components,160
+Regional(Requires Region,Tropical Products (Sunny Isles),Coconuts,30
+Base City,Building Supplies Store,Nails,80
+Base City,Building Supplies Store,Planks,120
+Base City,Building Supplies Store,Bricks,190
+Base City,Building Supplies Store,Cement,440
+Base City,Building Supplies Store,Glue,440
+Base City,Building Supplies Store,Paint,320
+Base City,Hardware Store,Hammer,90
+Base City,Hardware Store,Measuring Tape,110
+Base City,Hardware Store,Shovel,150
+Base City,Hardware Store,Cooking Utensils,250
+Base City,Hardware Store,Ladder,420
+Base City,Hardware Store,Drill,590
+Base City,Farmer's Market,Vegetables,160
+Base City,Farmer's Market,Flour Bag,570
+Base City,Farmer's Market,Fruit and Berries,730
+Base City,Farmer's Market,Cream,440
+Base City,Farmer's Market,Corn,280
+Base City,Farmer's Market,Cheese,660
+Base City,Farmer's Market,Beef,860
+Base City,Furniture Store,Chairs,300
+Base City,Furniture Store,Tables,500
+Base City,Furniture Store,Home Textiles,610
+Base City,Furniture Store,Cupboard,900
+Base City,Furniture Store,Couch,1810
+Base City,Gardening Supplies,Grass,310
+Base City,Gardening Supplies,Tree Saplings,420
+Base City,Gardening Supplies,Garden Furniture,820
+Base City,Gardening Supplies,Fire Pit,1740
+Base City,Gardening Supplies,Lawn Mower,840
+Base City,Gardening Supplies,Garden Gnomes,1600
+Base City,Donut Shop,Donuts,950
+Base City,Donut Shop,Green Smoothie,1150
+Base City,Donut Shop,Bread Roll,1840
+Base City,Donut Shop,Cherry Cheesecake,2240
+Base City,Donut Shop,Frozen Yogurt,1750
+Base City,Donut Shop,Coffee,750
+Base City,Fashion Store,Cap,600
+Base City,Fashion Store,Shoes,980
+Base City,Fashion Store,Watch,580
+Base City,Fashion Store,Business Suits,1170
+Base City,Fashion Store,Backpack,430
+Base City,Fast Food Restaurant,Ice Cream Sandwich,2560
+Base City,Fast Food Restaurant,Pizza,2560
+Base City,Fast Food Restaurant,Burgers,3620
+Base City,Fast Food Restaurant,Cheese Fries,1050
+Base City,Fast Food Restaurant,Lemonade Bottle,1690
+Base City,Fast Food Restaurant,Popcorn,1250
+Base City,Home Appliances,BBQ Grill,530
+Base City,Home Appliances,Refrigerator,1060
+Base City,Home Appliances,Lighting System,890
+Base City,Home Appliances,TV,1280
+Base City,Home Appliances,Microwave Oven,480
+Regional (Requires Region),Tropical Products (Sunny Isles),Coconut Oil,120
+Rewards,Golden Key,Golden Key,
+Rewards,Storage,Storage Camera,650
+Rewards,Storage,Storage Lock,650
+Rewards,Storage,Storage Bars,650
+Rewards,Storage,Dozer Blade,800
+Rewards,Storage,Dozer Exhaust,800
+Rewards,Storage,Dozer Wheel,800
+Rewards,Storage,Lifebelt,1500
+Rewards,Storage,Ship's Wheel,1500
+Rewards,Storage,Scuba Mask,1500
+Rewards,Storage,Compass,1500
+Rewards,Storage,Snowboard,1500
+Rewards,Storage,Winter Hat,1500
+Rewards,Paris,Fashion Clothes,1800
+Rewards,Paris,La Baguette,1800
+Rewards,Paris,Luxury Bag,1800
+Rewards,London,Bobby's Helmet,2000
+Rewards,London,Teapot,2000
+Rewards,London,Telephone Box,2000
+Rewards,Tokyo,Bonsai Tree,2200
+Rewards,Tokyo,Lantern,2200
+Rewards,Tokyo,Lucky Cat,2200
