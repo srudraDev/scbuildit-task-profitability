@@ -159,7 +159,7 @@ export function ItemGrid<T extends { id: string; name: string; image?: string }>
   className = '',
 }: ItemGridProps<T>) {
   return (
-    <div className={`grid grid-cols-5 md:grid-cols-5 gap-4 ${className}`}>
+    <div className={`grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2 md:gap-4 ${className}`}>
       {items.map(item => (
         <div 
           key={item.id} 
@@ -170,10 +170,12 @@ export function ItemGrid<T extends { id: string; name: string; image?: string }>
             <img 
               src={item.image} 
               alt={item.name}
-              className="w-18 h-18 object-contain"
+              className="w-12 h-12 md:w-18 md:h-18 object-contain"
             />
           </div>
-          <span className="text-sm font-semibold text-center text-white mt-2">{item.name}</span>
+          <span className="block text-xs md:text-sm font-semibold text-center text-white truncate w-full px-1">
+            {item.name}
+          </span>
         </div>
       ))}
     </div>
